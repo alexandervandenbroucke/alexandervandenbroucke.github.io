@@ -4,26 +4,8 @@ body {
 .newsitem-completed {
     background:transparent linear-gradient(to right, #31F749 0%, #3DE351 100%) repeat scroll 0% 0%;
 }
-.vlambda-logo {
-    background: transparent linear-gradient(to right, #296AD4 0%, #4E8EF7 100%) repeat scroll 0% 0%;
-}
-.vlambda-logo-small {
-    display: inline;
-    height: 20px;
-}
-.vlambda-infograph {
-    background-image: url('../images/vLambda_Infograph_small.jpg');
-    width: 166px;
-    height:166px;
-    display: block;
-    color: #777; /* fallback */
-    color: rgba(0,0,0,0.0);
+.publications-header {
     text-align: center;
-    vertical-align: middle;
-    font-size: 126px;
-}
-.vlambda-infograph:hover {
-    color: #FFF;
 }
 .label-wrappable {
     white-space: normal;
