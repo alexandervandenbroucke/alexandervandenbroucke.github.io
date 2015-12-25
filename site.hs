@@ -29,6 +29,10 @@ main = hakyllWith conf $ do
     route idRoute
     compile copyFileCompiler
 
+  match "talks/*" $ do
+    route idRoute
+    compile copyFileCompiler
+
   match "sections/*.markdown" $ do
     compile pandocCompiler
 
