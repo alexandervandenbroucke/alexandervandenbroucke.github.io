@@ -25,7 +25,7 @@ priority: 1
 
 <tr>
 <td>[Master Thesis: The Table Monad in Haskell (Dutch)](/publications/masterproef.pdf)</td>
-<td>Defended on June 2015</td>
+<td>Defended in June 2015</td>
 <td>Alexander Vandenbroucke</td>
 <td class="hidden-xs">
 [Source](http://bitbucket.org/AlexanderV/thesis)
