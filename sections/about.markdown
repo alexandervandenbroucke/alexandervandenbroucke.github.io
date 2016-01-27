@@ -4,8 +4,8 @@ priority: 2
 ---
 Hello, I'm Alexander Vandenbroucke. I recently started a Ph.D. in the
 [Programming Languages Group](http://people.cs.kuleuven.be/~tom.schrijvers/research.html)
-of [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) at the KU
-Leuven.
+of Professor [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) a
+t the KU Leuven.
 
 <img src="/images/me.jpg" style="width:50%" class="img-rounded"></img>
 
