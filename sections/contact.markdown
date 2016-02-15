@@ -18,7 +18,7 @@ priority: 0
 <span class="glyphicon glyphicon-map-marker"></span>
 Department of Computer Science, Celestijnenlaan 200A, <br />
 3001 Heverlee
-</a> Office 02.151
+</a> Office 04.65
 
 
 </center>
