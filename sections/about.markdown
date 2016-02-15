@@ -13,6 +13,7 @@ t the KU Leuven.
 Programming languages have fascinated me since I was first introduced to the
 functional programming language Haskell during the second year of my
 Bachelor's degree.
-Three years later, working on my Master Thesis, that the design, implementation
-and use of programming languages is a vibrant and interesting subdiscipline
-of computer science that I wanted to explore further. 
+Three years later, working on my Master Thesis, that the design, I
+discovered that the implementation and use of programming languages is a
+vibrant and interesting subdiscipline of computer science that I wanted to
+explore further. 
