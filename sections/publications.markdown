@@ -16,7 +16,7 @@ priority: 1
   
 <tr>
 <td>[Fixing Non-determinism](/publications/fixing-non-determinism.pdf)</td>
-<td>*submitted to IFL 2015*</td>
+<td>*Accepted for IFL 2015*</td>
 <td>Alexander Vandenbroucke, Tom Schrijvers and Frank Piessens</td> 
 <td class="hidden-xs">
 [Source](http://bitbucket.org/AlexanderV/thesis)
