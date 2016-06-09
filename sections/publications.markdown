@@ -13,10 +13,18 @@ priority: 1
 </th>
 <tbody>
   
-  
+<tr>
+<td>[Tabling as a Library with Delimited Control](/publications/tabling-with-delimited-control.pdf)</td>
+<td>Accepted for IJCAI 2016<br />July 2016</td>
+<td>Benoit Desouter, Marko van Dooren, Tom Schrijvers and Alexander Vandenbroucke</td>
+<td class="hidden-xs">
+[Source](http://users.ugent.be/~bdsouter/tabling/)
+</td>
+</tr>
+
 <tr>
 <td>[Fixing Non-determinism](/publications/fixing-non-determinism.pdf)</td>
-<td>*Accepted for IFL 2015*</td>
+<td>To be published in the IFL 2015 Post Proceedings<br />2016</td>
 <td>Alexander Vandenbroucke, Tom Schrijvers and Frank Piessens</td> 
 <td class="hidden-xs">
 [Source](http://bitbucket.org/AlexanderV/thesis)
