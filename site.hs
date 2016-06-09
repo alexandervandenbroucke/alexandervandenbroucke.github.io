@@ -50,12 +50,15 @@ main = hakyllWith conf $ do
   match "templates/*" $ compile templateCompiler
 
 --------------------------------------------------------------------------------
-type Priority = Maybe Int
+type Priority = Maybe Double
 
 highestPriorityFirst :: MonadMetadata m => [Item a] -> m [Item a]
-highestPriorityFirst is = do
-  priorities <- mapM (getPriority . itemIdentifier) is
-  return (map fst (sortBy (comparing (Down . snd)) (zip is priorities)))
+highestPriorityFirst = sortByM (getPriority . itemIdentifier)
+  
+sortByM :: (Ord b, Monad m) => (a -> m b) -> [a] -> m [a]
+sortByM toKeyM l = do
+  keys <- mapM toKeyM l
+  return (map fst (sortBy (comparing (Down . snd)) (zip l keys)))
 
 getPriority :: MonadMetadata m => Identifier -> m Priority
 getPriority i = getMetadataField i "priority" >>= return . (>>= readMaybe)
