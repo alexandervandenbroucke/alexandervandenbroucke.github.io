@@ -8,7 +8,7 @@
 # Author: Alexander Vandenbroucke <alexander.vandenbroucke@kuleuven.be>
 
 # static configuration settings
-REMOTE=clarke.cs.kuleuven.be
+REMOTE=ssh1.cs.kuleuven.be
 REMOTE_DIR=/cw/w3people/alexander.vandenbroucke/public_html/
 LOCAL_DIR=_site
 USER=alexvdb
