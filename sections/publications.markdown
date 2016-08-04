@@ -3,7 +3,6 @@ title: Publications
 priority: 1
 ---
 <div class="panel panel-default">
-<div clas="panel-body">
 <table class="table table-striped">
 <th>Title</th>
 <th class="publications-header"><i class="fa fa-calendar"></i></th>
@@ -42,5 +41,4 @@ priority: 1
 
 </tbody>
 </table>
-</div>
 </div>
