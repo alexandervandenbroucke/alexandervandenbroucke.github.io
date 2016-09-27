@@ -2,10 +2,10 @@
 title: About
 priority: 2
 ---
-Hello, I'm Alexander Vandenbroucke. I recently started a Ph.D. in the
+Hello, I'm Alexander Vandenbroucke. I'm a Ph.D. student in the
 [Programming Languages Group](http://people.cs.kuleuven.be/~tom.schrijvers/research.html)
 of Professor [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) at
-the KU Leuven.
+the KU Leuven (University of Leuven).
 
 <img src="/images/me.jpg" style="width:50%" class="img-rounded"></img>
 
