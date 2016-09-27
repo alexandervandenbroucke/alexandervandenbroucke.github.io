@@ -16,7 +16,7 @@ priority: 1
 <tr>
 <td>[The functional perspective on advanced logic programming
 ](/publications/answer-subsumption.pdf)</td>
-<td>Accepted for ICLP 2016 Technical Communcations<br />September 2016</td>
+<td>To appear in ICLP 2016 Technical Communcations<br />OASIcs, Daghstuhl Publishing, 2016</td>
 <td>Alexander Vandenbroucke</td>
 <td class="hidden-xs">
 </td>
@@ -24,7 +24,7 @@ priority: 1
 
 <tr>
 <td>[Tabling with Sound Answer Subsumption](/publications/answer-subsumption.pdf)</td>
-<td>Accepted for TPLP special issue for ICLP 2016<br />August 2016</td>
+<td>To appear in TPLP special issue for ICLP 2016,<br />Cambridge University Press, 2016</td>
 <td>Alexander Vandenbroucke, Maciej Piro&#769;g, Benoit Desouter and Tom Schrijvers</td>
 <td class="hidden-xs">
 </td>
@@ -32,7 +32,7 @@ priority: 1
 
 <tr>
 <td>[Tabling as a Library with Delimited Control](/publications/tabling-with-delimited-control.pdf)</td>
-<td>Accepted for IJCAI 2016<br />July 2016</td>
+<td>In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, AAAI Press, 2016</td>
 <td>Benoit Desouter, Marko van Dooren, Tom Schrijvers and Alexander Vandenbroucke</td>
 <td class="hidden-xs">
 [Source](http://users.ugent.be/~bdsouter/tabling/)
@@ -41,7 +41,7 @@ priority: 1
 
 <tr>
 <td>[Fixing Non-determinism](/publications/fixing-non-determinism.pdf)</td>
-<td>To be published in the IFL 2015 Post Proceedings<br />2016</td>
+<td>In IFL '15 Proceedings of the 27th Symposium on the Implementation and Application of Functional Programming Languages,<br />ACM, 2016</td>
 <td>Alexander Vandenbroucke, Tom Schrijvers and Frank Piessens</td> 
 <td class="hidden-xs">
 [Source](http://bitbucket.org/AlexanderV/thesis)
