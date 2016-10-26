@@ -12,3 +12,10 @@ priority: 1
 
 * **Tabling as a Library with Delimited Control** presented at IJCAI 2016 (July 13, 2016),
   Hilton Midtown, New York. [[Slides]](/talks/tabling-with-delimited-control.pdf)
+
+* **A Functional Perspective on Logic Programming** persented at the Doctoral Consortium of
+  ICLP 2016 (October 18, 2016), Sheraton La Guardia, New York
+  [[Slides]](/talks/functional-perspective-on-logic-programming.pdf)
+
+* **Tabling with Sound Answer Subsumption** presented at ICLP 2016 (October 20, 2016),
+  Sheraton La Guardia, New York [[Slides]](/talks/tabling-with-sound-answer-subsumption.pdf)
