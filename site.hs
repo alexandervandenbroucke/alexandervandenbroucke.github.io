@@ -33,6 +33,22 @@ main = hakyllWith conf $ do
     route idRoute
     compile copyFileCompiler
 
+  match "AppProb/index.markdown" $ do
+    compile pandocCompiler
+
+  create ["AppProb/index.html"] $ do
+    route (setExtension "html")
+    compile $ do
+      ctx <- sectionCtx
+      body <- loadBody "AppProb/index.markdown"
+      makeItem body
+        >>= loadAndApplyTemplate "templates/default.html" ctx
+        >>= relativizeUrls
+
+  match "AppProb/*" $ do
+    route idRoute
+    compile copyFileCompiler
+
   match "sections/*.markdown" $ do
     compile pandocCompiler
 
@@ -51,6 +67,13 @@ main = hakyllWith conf $ do
 
 --------------------------------------------------------------------------------
 type Priority = Maybe Double
+
+sectionCtx :: Compiler (Context String)
+sectionCtx = do
+  sections <- highestPriorityFirst =<< loadAll "sections/*"
+  return $ listField "sections" defaultContext (return sections)
+           `mappend` defaultContext
+
 
 highestPriorityFirst :: MonadMetadata m => [Item a] -> m [Item a]
 highestPriorityFirst = sortByM (getPriority . itemIdentifier)
