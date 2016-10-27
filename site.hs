@@ -37,7 +37,7 @@ main = hakyllWith conf $ do
     compile pandocCompiler
 
   create ["AppProb/index.html"] $ do
-    route (setExtension "html")
+    route idRoute
     compile $ do
       ctx <- sectionCtx
       body <- loadBody "AppProb/index.markdown"
@@ -55,9 +55,7 @@ main = hakyllWith conf $ do
   match "index.html" $ do
     route idRoute
     compile $ do
-      sections <- highestPriorityFirst =<< loadAll "sections/*"
-      let ctx = listField "sections" defaultContext (return sections)
-                `mappend` defaultContext
+      ctx <- sectionCtx
       getResourceBody
         >>= applyAsTemplate ctx
         >>= loadAndApplyTemplate "templates/default.html" ctx
