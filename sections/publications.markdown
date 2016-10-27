@@ -24,7 +24,7 @@ priority: 1
 
 <tr>
 <td>[Tabling with Sound Answer Subsumption](/publications/answer-subsumption.pdf)</td>
-<td>To appear in TPLP special issue for ICLP 2016,<br />Cambridge University Press, 2016</td>
+<td>In TPLP special issue for ICLP 2016,<br />Cambridge University Press, October 2016</td>
 <td>Alexander Vandenbroucke, Maciej Piro&#769;g, Benoit Desouter and Tom Schrijvers</td>
 <td class="hidden-xs">
 </td>
