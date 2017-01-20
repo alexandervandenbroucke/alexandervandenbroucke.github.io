@@ -12,6 +12,15 @@ priority: 1
 </th>
 <tbody>
 
+<tr>
+<td>[ProbLog and Applicative Probabilistic Programming
+](/publications/popl-pps-abstract.pdf)</td>
+<td>Submitted to the Probabilistic Programming Semantics workshop 2017</td>
+<td>Alexander Vandenbroucke and Tom Schrijvers</td>
+<td class="hidden-xs">
+[Source](/AppProb/)
+</td>
+</tr>
 
 <tr>
 <td>[The functional perspective on advanced logic programming
