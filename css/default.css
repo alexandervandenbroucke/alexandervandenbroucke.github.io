@@ -4,9 +4,6 @@ body {
 .newsitem-completed {
     background:transparent linear-gradient(to right, #31F749 0%, #3DE351 100%) repeat scroll 0% 0%;
 }
-.publications-header {
-    text-align: center;
-}
 .label-wrappable {
     white-space: normal;
     display: block;
@@ -34,4 +31,12 @@ body {
 }
 .post-list-title {
     margin-top: 0px;
+}
+.publication-title {
+}
+.publication-status {
+    font-style: italic;
+}
+.publication-authors {
+    font-weight: bold;
 }

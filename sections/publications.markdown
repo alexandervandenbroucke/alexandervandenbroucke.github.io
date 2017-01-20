@@ -3,69 +3,56 @@ title: Publications
 priority: 1
 ---
 <div class="panel panel-default">
-<table class="table table-striped">
-<th>Title</th>
-<th class="publications-header"><i class="fa fa-calendar"></i></th>
-<th class="publications-header"><i class="fa fa-users"></i></th>
-<th class="publications-header hidden-xs">
-<i class="fa fa-file-code-o"></i>
-</th>
-<tbody>
 
-<tr>
-<td>[ProbLog and Applicative Probabilistic Programming
-](/publications/popl-pps-abstract.pdf)</td>
-<td>Submitted to the Probabilistic Programming Semantics workshop 2017</td>
-<td>Alexander Vandenbroucke and Tom Schrijvers</td>
-<td class="hidden-xs">
-[Source](/AppProb/)
-</td>
-</tr>
+<ul class = "list-group">
 
-<tr>
-<td>[The functional perspective on advanced logic programming
-](/publications/research-summary.pdf)</td>
-<td>To appear in ICLP 2016 Technical Communcations<br />OASIcs, Daghstuhl Publishing, 2016</td>
-<td>Alexander Vandenbroucke</td>
-<td class="hidden-xs">
-</td>
-</tr>
+<li class="list-group-item">
+<h3 class="publication-title">
+ [ProbLog and Applicative Probabilistic Programming](/publications/popl-pps-abstract.pdf)
+</h3>
+<div class="publication-status">Submitted to the Probabilistic Programming Semantics 2017</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
+</li>
 
-<tr>
-<td>[Tabling with Sound Answer Subsumption](/publications/answer-subsumption.pdf)</td>
-<td>In TPLP special issue for ICLP 2016,<br />Cambridge University Press, October 2016</td>
-<td>Alexander Vandenbroucke, Maciej Piro&#769;g, Benoit Desouter and Tom Schrijvers</td>
-<td class="hidden-xs">
-</td>
-</tr>
+<li class="list-group-item">
+<h3 class="publication-title">
+[The functional perspective on advanced logic programming](/publications/research_summary.pdf)</td>
+</h3>
+<div class="publication-status">In ICLP 2016 Technical Communcations<br />OASIcs, Daghstuhl Publishing, 2016</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke</div>
+</li>
 
-<tr>
-<td>[Tabling as a Library with Delimited Control](/publications/tabling-with-delimited-control.pdf)</td>
-<td>In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, AAAI Press, 2016</td>
-<td>Benoit Desouter, Marko van Dooren, Tom Schrijvers and Alexander Vandenbroucke</td>
-<td class="hidden-xs">
+<li class="list-group-item">
+<h3 class="publication-title">[Tabling with Sound Answer Subsumption](/publications/answer-subsumption.pdf)</h3>
+<div class="publication-status">In TPLP special issue for ICLP 2016,<br />Cambridge University Press, October 2016</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke, Maciej Piro&#769;g, Benoit Desouter and Tom Schrijvers</div>
+</li>
+
+<li class="list-group-item">
+<h3 class="publication-title">[Tabling as a Library with Delimited Control](/publications/tabling-with-delimited-control.pdf)</h3>
+<div class="publication-status">In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, AAAI Press, 2016</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Benoit Desouter, Marko van Dooren, Tom Schrijvers and Alexander Vandenbroucke</div>
+<div class="publication-source">
 [Source](http://users.ugent.be/~bdsouter/tabling/)
-</td>
-</tr>
+</div>
+</li>
 
-<tr>
-<td>[Fixing Non-determinism](/publications/fixing-non-determinism.pdf)</td>
-<td>In IFL '15 Proceedings of the 27th Symposium on the Implementation and Application of Functional Programming Languages,<br />ACM, 2016</td>
-<td>Alexander Vandenbroucke, Tom Schrijvers and Frank Piessens</td> 
-<td class="hidden-xs">
+<li class="list-group-item">
+<h3 class="publication-title">[Fixing Non-determinism](/publications/fixing-non-determinism.pdf)</h3>
+<div class="publication-status">In IFL '15 Proceedings of the 27th Symposium on the Implementation and Application of Functional Programming Languages,<br />ACM, 2016</td>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke, Tom Schrijvers and Frank Piessens</div> 
+<div class="publication-source">
 [Source](http://bitbucket.org/AlexanderV/thesis)
-</td>
-</tr>
+</div>
+</li>
 
-<tr>
-<td>[Master Thesis: The Table Monad in Haskell (Dutch)](/publications/masterproef.pdf)</td>
-<td>Defended in June 2015</td>
-<td>Alexander Vandenbroucke</td>
-<td class="hidden-xs">
+<li class="list-group-item">
+<h3 class="publication-title">[Master Thesis: The Table Monad in Haskell (Dutch)](/publications/masterproef.pdf)</h3>
+<div class="publication-status">Defended in June 2015</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke</div>
+<div class="publication-source">
 [Source](http://bitbucket.org/AlexanderV/thesis)
-</td>
-</tr>
+</div>
+</li>
 
-</tbody>
-</table>
 </div>
