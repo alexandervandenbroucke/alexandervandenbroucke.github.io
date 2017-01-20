@@ -24,7 +24,7 @@ priority: 1
 
 <tr>
 <td>[The functional perspective on advanced logic programming
-](/publications/answer-subsumption.pdf)</td>
+](/publications/research-summary.pdf)</td>
 <td>To appear in ICLP 2016 Technical Communcations<br />OASIcs, Daghstuhl Publishing, 2016</td>
 <td>Alexander Vandenbroucke</td>
 <td class="hidden-xs">
