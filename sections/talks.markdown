@@ -14,8 +14,12 @@ priority: 1
   Hilton Midtown, New York. [[Slides]](/talks/tabling-with-delimited-control.pdf)
 
 * **A Functional Perspective on Logic Programming** persented at the Doctoral Consortium of
-  ICLP 2016 (October 18, 2016), Sheraton La Guardia, New York
+  ICLP 2016 (October 18, 2016), Sheraton La Guardia, New York.
   [[Slides]](/talks/functional-perspective-on-logic-programming.pdf)
 
 * **Tabling with Sound Answer Subsumption** presented at ICLP 2016 (October 20, 2016),
-  Sheraton La Guardia, New York [[Slides]](/talks/tabling-with-sound-answer-subsumption.pdf)
+  Sheraton La Guardia, New York. [[Slides]](/talks/tabling-with-sound-answer-subsumption.pdf)
+
+* **Raytracing from First principles** presented at the Leuven Haskell User
+Group (January 24, 2016), Department of Computer Science, Leuven.
+[[Slides]](/talks/Raytracing-from-first-principles.pdf)
