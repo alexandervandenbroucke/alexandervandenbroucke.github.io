@@ -5,6 +5,7 @@ import Hakyll
 import Data.List (sortBy)
 import Text.Read (readMaybe)
 import Data.Ord (Down(Down), comparing)
+import System.FilePath (replaceDirectory)
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -34,19 +35,24 @@ main = hakyllWith conf $ do
     compile copyFileCompiler
 
   match "AppProb/index.markdown" $ do
-    compile pandocCompiler
-
-  create ["AppProb/index.html"] $ do
-    route idRoute
     compile $ do
       ctx <- sectionCtx
-      body <- loadBody "AppProb/index.markdown"
-      makeItem body
+      pandocCompiler
         >>= loadAndApplyTemplate "templates/default.html" ctx
+
+  create ["AppProb/index.html","app/index.html"] $ do
+    route idRoute
+    compile $ do
+      loadBody "AppProb/index.markdown"
+        >>= makeItem
         >>= relativizeUrls
 
   match "AppProb/*" $ do
     route idRoute
+    compile copyFileCompiler
+
+  match "AppProb/*" $ do
+    route (setDirectory "app/")
     compile copyFileCompiler
 
   match "sections/*.markdown" $ do
@@ -87,3 +93,7 @@ getPriority i = getMetadataField i "priority" >>= return . (>>= readMaybe)
 --------------------------------------------------------------------------------
 conf :: Configuration
 conf = defaultConfiguration { deployCommand = "/bin/bash deploy.sh" }
+
+--------------------------------------------------------------------------------
+setDirectory :: FilePath -> Routes
+setDirectory dir = customRoute ((`replaceDirectory` dir) .  toFilePath)
