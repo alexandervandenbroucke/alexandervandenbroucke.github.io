@@ -21,5 +21,9 @@ priority: 1
   Sheraton La Guardia, New York. [[Slides]](/talks/tabling-with-sound-answer-subsumption.pdf)
 
 * **Raytracing from First principles** presented at the Leuven Haskell User
-Group (January 24, 2016), Department of Computer Science, Leuven.
+Group (January 24, 2017), Department of Computer Science, Leuven.
 [[Slides]](/talks/Raytracing-from-first-principles.pdf)
+
+* **ProbLog is Applicative** presented as a DTAI-seminar (February 27, 2017),
+Departement of Computer Science, Leuven.
+[[Slides]](/talks/ProbLog-is-Applicative.pdf)
