@@ -13,7 +13,7 @@ priority: 1
 * **Tabling as a Library with Delimited Control** presented at IJCAI 2016 (July 13, 2016),
   Hilton Midtown, New York. [[Slides]](/talks/tabling-with-delimited-control.pdf)
 
-* **A Functional Perspective on Logic Programming** persented at the Doctoral Consortium of
+* **A Functional Perspective on Logic Programming** presented at the Doctoral Consortium of
   ICLP 2016 (October 18, 2016), Sheraton La Guardia, New York.
   [[Slides]](/talks/functional-perspective-on-logic-programming.pdf)
 
@@ -27,3 +27,7 @@ Group (January 24, 2017), Department of Computer Science, Leuven.
 * **ProbLog is Applicative** presented as a DTAI-seminar (February 27, 2017),
 Departement of Computer Science, Leuven.
 [[Slides]](/talks/ProbLog-is-Applicative.pdf)
+
+* **From PRISM to ProbLog: There And Back Again** presented at PLP 2017 (September 8, 2017),
+  LIFO (Le Laboratoir d'Informatique Fondamentale d'Orléans, Orléans, France.
+  [[Slides]](/talks/From-PRISM-to-ProbLog-There-and-Back-Again.pdf)
