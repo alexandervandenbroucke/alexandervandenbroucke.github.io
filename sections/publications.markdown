@@ -7,10 +7,18 @@ priority: 1
 <ul class = "list-group">
 
 <li class="list-group-item">
+<h3 class="publication-title">[From PRISM to ProbLog: There And Back Again](/publications/PLP2017.pdf)</h3>
+<div class="publication-status">In the Probabilistic Logic Programming Workshop, 2017</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
+[[CEUR]](http://ceur-ws.org/Vol-1916/)
+</li>
+
+
+<li class="list-group-item">
 <h3 class="publication-title">
  [ProbLog and Applicative Probabilistic Programming](/publications/popl-pps-abstract.pdf)
 </h3>
-<div class="publication-status">Submitted to the Probabilistic Programming Semantics 2017</div>
+<div class="publication-status">In the Probabilistic Programming Semantics Workshop, 2017</div>
 <div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
 </li>
 
