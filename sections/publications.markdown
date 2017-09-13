@@ -7,7 +7,7 @@ priority: 1
 <ul class = "list-group">
 
 <li class="list-group-item">
-<h3 class="publication-title">[From PRISM to ProbLog: There And Back Again](/publications/PLP2017.pdf)</h3>
+<h3 class="publication-title">[From PRISM to ProbLog: There And Back Again](/publications/plp2017.pdf)</h3>
 <div class="publication-status">In the Probabilistic Logic Programming Workshop, 2017</div>
 <div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
 [[CEUR]](http://ceur-ws.org/Vol-1916/)
