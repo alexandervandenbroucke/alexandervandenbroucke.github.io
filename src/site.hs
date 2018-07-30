@@ -85,10 +85,10 @@ highestPriorityFirst = sortByM (getPriority . itemIdentifier)
 sortByM :: (Ord b, Monad m) => (a -> m b) -> [a] -> m [a]
 sortByM toKeyM l = do
   keys <- mapM toKeyM l
-  return (map fst (sortBy (comparing (Down . snd)) (zip l keys)))
+  return $ map fst $ sortBy (comparing (Down . snd)) $ zip l keys
 
 getPriority :: MonadMetadata m => Identifier -> m Priority
-getPriority i = getMetadataField i "priority" >>= return . (>>= readMaybe)
+getPriority i = fmap (>>= readMaybe) (getMetadataField i "priority")
 
 --------------------------------------------------------------------------------
 conf :: Configuration
@@ -97,3 +97,7 @@ conf = defaultConfiguration { deployCommand = "/bin/bash deploy.sh" }
 --------------------------------------------------------------------------------
 setDirectory :: FilePath -> Routes
 setDirectory dir = customRoute ((`replaceDirectory` dir) .  toFilePath)
+
+-- Local Variables:
+-- dante-repl-command-line: ("cabal" "new-repl" dante-project-root)
+-- End:

@@ -1,6 +1,8 @@
 *~
 .cabal-sandbox/*
 cabal.sandbox.config
+cabal.project.local
 dist/*
+dist-newstyle/*
 _site/*
 _cache/*
