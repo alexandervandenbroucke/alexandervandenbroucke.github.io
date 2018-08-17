@@ -7,7 +7,7 @@ Hello, I'm Alexander Vandenbroucke. I'm a Ph.D. student in the
 of Professor [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) at
 the KU Leuven (University of Leuven).
 
-<img src="/images/me.jpg" style="width:50%" class="img-rounded"></img>
+<img src="/images/me_two.jpg" style="width:50%" class="img-rounded"></img>
 
 ### <i class="fa fa-info-circle"></i> Interests
 <p class="text-justify">
@@ -17,5 +17,9 @@ Bachelor's degree.
 Three years later, working on my Master Thesis, I
 discovered that that the design, the implementation and use of (functional)
 programming languages is a vibrant and interesting subdiscipline of computer
-science that I wanted to explore further. 
+science that I wanted to explore further.
+</p>
+<p class="text-justify">
+Recently, I've become interested in (functional and logic) probabilistic
+programming, particularily with an eye to applications in networks.
 </p>
