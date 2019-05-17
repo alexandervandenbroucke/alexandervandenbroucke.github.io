@@ -31,3 +31,7 @@ Departement of Computer Science, Leuven.
 * **From PRISM to ProbLog: There And Back Again** presented at PLP 2017 (September 8, 2017),
   LIFO (Le Laboratoir d'Informatique Fondamentale d'Orléans, Orléans, France.
   [[Slides]](/talks/From-PRISM-to-ProbLog-There-and-Back-Again.pdf)
+  
+* **Domain Specific Languages** presented at the Belgian Go meetup
+  (February 27, 2019), imec, Leuven.
+  [[Slides]](/talks/DSLs.pdf)
