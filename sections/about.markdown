@@ -7,7 +7,7 @@ Hello, I'm Alexander Vandenbroucke. I'm a Ph.D. student in the
 of Professor [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) at
 the KU Leuven (University of Leuven).
 
-<img src="/images/me_two.jpg" style="width:50%" class="img-rounded"></img>
+<img src="/images/me_three.jpg" style="width:50%" class="img-rounded"></img>
 
 ### <i class="fa fa-info-circle"></i> Interests
 <p class="text-justify">
