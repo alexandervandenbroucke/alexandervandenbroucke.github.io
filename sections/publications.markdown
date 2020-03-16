@@ -8,7 +8,7 @@ priority: 1
 
 <li class="list-group-item">
 <h3 class="publication-title">[P&lambda;&omega;NK: Functional Probabilistic NetKAT](/publications/popl2020.pdf)</h3>
-<div class="publication-status">To Appear in Proc. ACM Program. Lang. 4, POPL, Article 39 (January 2020)</div>
+<div class="publication-status">Proc. ACM Program. Lang. 4, POPL, Article 39 (January 2020)</div>
 <div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
 </li>
 

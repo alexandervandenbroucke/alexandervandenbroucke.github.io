@@ -35,3 +35,15 @@ Departement of Computer Science, Leuven.
 * **Domain Specific Languages** presented at the Belgian Go meetup
   (February 27, 2019), imec, Leuven.
   [[Slides]](/talks/DSLs.pdf)
+
+* **P&lambda;&omega;NK: Functional Probabilistic NetKAT**
+  (January 23, 2020), JW Marriot, New Orleans, Louisiana, USA.
+  [[Slides]](/talks/PloNK.pdf)
+
+* **Harnessing Probabilistic Programming for Networks**
+  (March 5, 2020), Nokia Bell Labs, Antwerpen, Belgium
+  [[Slides]](/talks/NBL.pdf)
+
+* **Harnessing Probabilistic Programming for Networks**
+  (March 9, 2020), Department of Computer Science, KU Leuven, Leuven, Belgium
+  [[Slides]](/talks/Probabilistic-Programming-Seminar.pdf)
