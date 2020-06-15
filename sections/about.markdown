@@ -2,24 +2,25 @@
 title: About
 priority: 2
 ---
-Hello, I'm Alexander Vandenbroucke. I'm a Ph.D. student in the
-[Programming Languages Group](http://people.cs.kuleuven.be/~tom.schrijvers/research.html)
-of Professor [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/) at
-the KU Leuven (University of Leuven).
+<p class="text-justify">
+Alexander is a programming language researcher at KU Leuven, currently in the
+process of finishing his PhD. After obtaining his Bachelor's degree in
+Informatics from the University of Antwerp, he studied at KU Leuven for the
+next two years, completing his Master of Engineering (Computer Science) degree
+in 2015.
+Later in the same year, he joined the
+[programming language research group](https://people.cs.kuleuven.be/~tom.schrijvers) at KU Leuven.
+</p>
 
 <img src="/images/me_three.jpg" style="width:50%" class="img-rounded"></img>
 
 ### <i class="fa fa-info-circle"></i> Interests
 <p class="text-justify">
-Programming languages have fascinated me since I was first introduced to the
-functional programming language Haskell during the second year of my
-Bachelor's degree.
-Three years later, working on my Master Thesis, I
-discovered that that the design, the implementation and use of (functional)
-programming languages is a vibrant and interesting subdiscipline of computer
-science that I wanted to explore further.
+His main research interests are programming languages, with a particular focus
+on the fields of functional and probabilistic programming, about which he has
+published articles at top international conferences and journals.
 </p>
 <p class="text-justify">
-Recently, I've become interested in (functional and logic) probabilistic
-programming, particularily with an eye to applications in networks.
+Outside the office, he enjoys hitting his opponents with the pointy end on the
+fencing piste.
 </p>
