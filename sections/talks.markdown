@@ -26,7 +26,7 @@ Group (January 24, 2017), Department of Computer Science, Leuven.
 
 * **ProbLog is Applicative** presented as a DTAI-seminar (February 27, 2017),
 Departement of Computer Science, Leuven.
-[[Slides]](/talks/ProbLog-is-Applicative.pdf)
+[[Slides]](/talks/Problog-is-Applicative.pdf)
 
 * **From PRISM to ProbLog: There And Back Again** presented at PLP 2017 (September 8, 2017),
   LIFO (Le Laboratoir d'Informatique Fondamentale d'Orléans, Orléans, France.
