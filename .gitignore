@@ -2,5 +2,8 @@
 .cabal-sandbox/*
 cabal.sandbox.config
 dist/*
+dist-newstyle/*
 _site/*
 _cache/*
+.DS_Store
+.ghc.environment.x86_64-darwin-8.4.4
