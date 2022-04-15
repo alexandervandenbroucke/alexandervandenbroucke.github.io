@@ -7,6 +7,16 @@ priority: 1
 <ul class = "list-group">
 
 <li class="list-group-item">
+<h3 class="publication-title">[Disjunctive Delimited Control](/publications/lobstr2021.pdf)</h3>
+<div class="publication-status">
+In Logic-Based Program Synthesis and Transformation (LOPSTR), 2021
+
+(Best Paper Award)
+</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
+</li>
+
+<li class="list-group-item">
 <h3 class="publication-title">[P&lambda;&omega;NK: Functional Probabilistic NetKAT](/publications/popl2020.pdf)</h3>
 <div class="publication-status">Proc. ACM Program. Lang. 4, POPL, Article 39 (January 2020)</div>
 <div class="publication-authors"><span class="glyphicon glyphicon-user"></span>Alexander Vandenbroucke and Tom Schrijvers</div>
