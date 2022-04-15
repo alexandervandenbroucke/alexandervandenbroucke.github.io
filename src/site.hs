@@ -2,7 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend)
 import Hakyll
-import Data.List (sortBy)
+import Data.List (sortBy, sortOn)
 import Text.Read (readMaybe)
 import Data.Ord (Down(Down), comparing)
 import System.FilePath (replaceDirectory)
@@ -13,7 +13,7 @@ main = hakyllWith conf $ do
   match "images/*" $ do
     route   idRoute
     compile copyFileCompiler
-  
+
   match "css/*" $ do
     route   idRoute
     compile compressCssCompiler
@@ -75,24 +75,27 @@ type Priority = Maybe Double
 sectionCtx :: Compiler (Context String)
 sectionCtx = do
   sections <- highestPriorityFirst =<< loadAll "sections/*"
-  return $ listField "sections" defaultContext (return sections)
-           `mappend` defaultContext
+  return $
+    listField "sections" defaultContext (return sections) <> defaultContext
 
 
 highestPriorityFirst :: MonadMetadata m => [Item a] -> m [Item a]
 highestPriorityFirst = sortByM (getPriority . itemIdentifier)
-  
+
 sortByM :: (Ord b, Monad m) => (a -> m b) -> [a] -> m [a]
 sortByM toKeyM l = do
   keys <- mapM toKeyM l
-  return $ map fst $ sortBy (comparing (Down . snd)) $ zip l keys
+  return $ map fst $ sortOn (Down . snd) $ zip l keys
 
 getPriority :: MonadMetadata m => Identifier -> m Priority
 getPriority i = fmap (>>= readMaybe) (getMetadataField i "priority")
 
 --------------------------------------------------------------------------------
 conf :: Configuration
-conf = defaultConfiguration { deployCommand = "/bin/bash deploy.sh" }
+conf = defaultConfiguration
+  { deployCommand = "/bin/bash deploy.sh"
+  , destinationDirectory = "docs/"
+  }
 
 --------------------------------------------------------------------------------
 setDirectory :: FilePath -> Routes
