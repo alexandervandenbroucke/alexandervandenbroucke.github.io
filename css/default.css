@@ -40,3 +40,8 @@ body {
 .publication-authors {
     font-weight: bold;
 }
+
+.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
