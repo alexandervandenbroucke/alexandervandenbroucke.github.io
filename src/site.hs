@@ -35,10 +35,9 @@ main = hakyllWith conf $ do
     compile copyFileCompiler
 
   match "AppProb/index.markdown" $ do
-    compile $ do
-      ctx <- sectionCtx
+    compile $
       pandocCompiler
-        >>= loadAndApplyTemplate "templates/default.html" ctx
+        >>= loadAndApplyTemplate "templates/default.html" sectionCtx
 
   create ["AppProb/index.html","app/index.html"] $ do
     route idRoute
@@ -60,23 +59,21 @@ main = hakyllWith conf $ do
 
   match "index.html" $ do
     route idRoute
-    compile $ do
-      ctx <- sectionCtx
+    compile $
       getResourceBody
-        >>= applyAsTemplate ctx
-        >>= loadAndApplyTemplate "templates/default.html" ctx
+        >>= applyAsTemplate sectionCtx
+        >>= loadAndApplyTemplate "templates/default.html" sectionCtx
         >>= relativizeUrls
 
   match "templates/*" $ compile templateCompiler
 
 --------------------------------------------------------------------------------
-type Priority = Maybe Double
+data Priority = Lowest | Numeric Int deriving (Eq, Ord)
 
-sectionCtx :: Compiler (Context String)
-sectionCtx = do
-  sections <- highestPriorityFirst =<< loadAll "sections/*"
-  return $
-    listField "sections" defaultContext (return sections) <> defaultContext
+sectionCtx :: Context String
+sectionCtx = 
+  let sections = highestPriorityFirst =<< loadAll "sections/*"
+  in listField "sections" defaultContext sections <> defaultContext
 
 
 highestPriorityFirst :: MonadMetadata m => [Item a] -> m [Item a]
@@ -88,7 +85,8 @@ sortByM toKeyM l = do
   return $ map fst $ sortOn (Down . snd) $ zip l keys
 
 getPriority :: MonadMetadata m => Identifier -> m Priority
-getPriority i = fmap (>>= readMaybe) (getMetadataField i "priority")
+getPriority i =
+  fmap (maybe Lowest Numeric . (>>= readMaybe)) (getMetadataField i "priority")
 
 --------------------------------------------------------------------------------
 conf :: Configuration
@@ -100,7 +98,3 @@ conf = defaultConfiguration
 --------------------------------------------------------------------------------
 setDirectory :: FilePath -> Routes
 setDirectory dir = customRoute ((`replaceDirectory` dir) .  toFilePath)
-
--- Local Variables:
--- dante-repl-command-line: ("cabal" "new-repl" dante-project-root)
--- End:

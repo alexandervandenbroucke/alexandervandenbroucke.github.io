@@ -47,3 +47,6 @@ Departement of Computer Science, Leuven.
 * **Harnessing Probabilistic Programming for Networks**
   (March 9, 2020), Department of Computer Science, KU Leuven, Leuven, Belgium
   [[Slides]](/talks/Probabilistic-Programming-Seminar.pdf)
+  
+* **Rigged Contracts**
+  (May 16, 2024), FLOPS 2024, Kumamoto, Japan [[Slides]](/talks/Rigged Contracts FLOPS 2024 (PDF).pdf)

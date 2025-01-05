@@ -7,6 +7,19 @@ priority: 1
 <ul class = "list-group">
 
 <li class="list-group-item">
+<h3 class="publication-title">[Declarative Pearl: Rigged Contracts](/publications/rigged-contracts.pdf)</h3>
+<div class="publication-status">In Science of Computer Programming, Volume 231, 2024</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user" />Alexander Vandenbroucke and Tom Schrijvers
+</div>
+
+
+<li class="list-group-item">
+<h3 class="publication-title">[Forward- or Reverse-Mode Automatic Differentiation: What's the Difference?](/publications/forward-reverse-automatic-differentiation.pdf)</h3>
+<div class="publication-status">In Science of Computer Programming, Volume 231, 2024</div>
+<div class="publication-authors"><span class="glyphicon glyphicon-user" />Birthe van den Bergh, Tom Schrijvers, James McKinna and Alexander Vandenbroucke
+</div>
+
+<li class="list-group-item">
 <h3 class="publication-title">[Disjunctive Delimited Control](/publications/lobstr2021.pdf)</h3>
 <div class="publication-status">
 In Logic-Based Program Synthesis and Transformation (LOPSTR), 2021
